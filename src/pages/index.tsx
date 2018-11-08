@@ -42,7 +42,7 @@ export default class Index extends React.Component<Props, State> {
     const {todos} = this.props;
     return (
       <div>
-        <h1>Welcome to react-dva!</h1>
+        <h1>Welcome to react-dva-ts</h1>
         <input type="text" onChange={this.handleInputChange}/>
         <button onClick={this.handleAddTodo}>+</button>
         <button onClick={this.handleAddTodoAsync}>async</button>
